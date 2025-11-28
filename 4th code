@@ -1,0 +1,10 @@
+public class TypeCastingDemo {
+    public static void main(String[] args) {
+        double num = 12.75;
+
+        int castedNum = (int) num; // Explicit type casting
+
+        System.out.println("Original double value: " + num);
+        System.out.println("After casting to int: " + castedNum);
+    }
+}
